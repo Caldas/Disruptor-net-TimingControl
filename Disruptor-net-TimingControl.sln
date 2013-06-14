@@ -5,6 +5,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApplication", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disruptor-net-TimingControl", "Library\Disruptor-net-TimingControl.csproj", "{DBEF171F-AAAA-4D7C-BA70-49C385697F70}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Projects", "Test Projects", "{26BB5524-D91B-476B-AF0D-313842A79A96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Public Projects", "Public Projects", "{C5AEAC41-0DAE-41CC-AD0E-69EE9217C852}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{4592A273-B98D-4BBE-9047-851FEAEBF0BB}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\CHANGELOG.md = Documents\CHANGELOG.md
+		Documents\README.md = Documents\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,5 +32,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FBF26F3-43EE-4E66-A257-4574068ECCFD} = {26BB5524-D91B-476B-AF0D-313842A79A96}
+		{DBEF171F-AAAA-4D7C-BA70-49C385697F70} = {C5AEAC41-0DAE-41CC-AD0E-69EE9217C852}
 	EndGlobalSection
 EndGlobal
