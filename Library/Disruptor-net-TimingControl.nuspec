@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>$version$</version>
+    <authors>Fabio Caldas</authors>
+    <owners>Fabio Caldas</owners>
+    <projectUrl>https://github.com/Caldas/Disruptor-net-TimingControl</projectUrl>
+    <id>Disruptor-net.TimingControl</id>
+    <title>Disruptor-net TimingControl</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Disruptor-net TimingControl</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright © Vtex 2012</copyright>
+    <tags>Disruptor-net TimingControl</tags>
+	  <references>
+      <reference file="Disruptor.TimingControl.dll"></reference>
+    </references>
+  </metadata>
+ </package>
